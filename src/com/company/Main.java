@@ -6,30 +6,30 @@ public class Main
             public void  main(String[] args)
             {
                 // creat Student object
-                Student waii = new Student();
-                Student ohm = new Student();
-                Student sen =new Student();
+                Student kong = new Student();
+                Student mig = new Student();
+                Student say =new Student();
 
                 // input data to object
-                waii.name= "Senju";
-                waii.id= "623410008-8";
-                waii.major= "CIS";
-                ohm.name= "youngohm";
-                ohm.id= "007";
-                ohm.major= "CIS";
-                sen.name= "sama";
-                sen.id= "008";
-                sen.major= "CS";
+                kong.name= "Kinfff";
+                kong.id= "623416268-8";
+                kong.major= "CIS";
+                mig.name= "youdigfm";
+                mig.id= "0997";
+                mig.major= "CIS";
+                say.name= "sama";
+                say.id= "0998";
+                say.major= "CS";
 
 
                 //get data from object
-                System.out.println("1."+ waii.name +" "+ waii.major);
-                System.out.println("2."+ ohm.name +" "+ ohm.major);
-                System.out.println("3."+ sen.name +" "+ sen.major);
+                System.out.println("1."+ kong.name +" "+ kong.major);
+                System.out.println("2."+ mig.name +" "+ mig.major);
+                System.out.println("3."+ say.name +" "+ say.major);
 
                 // add student to array
                 // array intex       0
-                Student[] oopStudents = {waii,ohm,sen};
+                Student[] oopStudents = {kong,mig,say};
 
                 System.out.println("1."+oopStudents[0].name);
                 System.out.println("2."+oopStudents[1].name);
